@@ -24,4 +24,11 @@ export const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    body{
+        font-family: "Hanken Grotesk", sans-serif;
+        @media screen and (width>=768px){
+            background-color: #ECF2FF;
+        }
+    }
+
 `;
